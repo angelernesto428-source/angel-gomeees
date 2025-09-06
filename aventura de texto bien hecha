@@ -1,0 +1,12 @@
+start = print(" te despiertas en una cueva junto con una nota y una antorcha, que haces??")
+
+opcion_inicio = input("que haces??: NOTA o ANTORCHA ").lower()
+
+if opcion_inicio == "nota":
+    print("lees la nota,tiene unas indicaciones que decides seguir")
+
+elif opcion_inicio == "antorcha":
+    print("enciendes la antorcha y ves 2 caminos")
+    print("el primero con agua,el segundo con algo al fondo")
+    print("y el tercero sin nada a la vista")
+
