@@ -1,11 +1,46 @@
-start = print("estas de vacaciones en tu casa del bosque, y escuchas pasos afuera")
-opcion_1 = input("que haces?? : SALES A VER QUE PASA o IGNORAS EL SUCESO").lower()
-if opcion_1 == "SALES":
-    print("sales de tu casa y ves la silueta de una persona,que a medida que se acerca cambia de forma")
-    opcion_1_1= input("\n que haces ENTRAS A LA CASA Y TE ESCONDES o TE ACERCAS \n : ").lower()
-    if opcion_1_1 == ""
+print("CALCULADORA SIMPLE")
+
+operacion = input("elige que quieres hacer (SUMA,RESTA,DIVISION,MULTIPLICACION)").lower()
+
+if operacion == "suma":
 
 
-elif opcion_1 == "IGNORAS":
+    numero_1 = float(input("ingresa el primer numero: "))
+    numero_2 = float(input("ingresa el segundo numero: "))
+
+    resultado1 = numero_1 + numero_2
+
+    print(f"el resultado de la suma es: {resultado1}")
+ 
+ 
+elif operacion == "resta":
+
+
+    numero_3 = float(input("ingresa el primer numero: "))
+    numero_4 = float(input("ingresa el segundo numero: "))
+
+    resultado2 = numero_3 - numero_4
+
+    print(f"el resultado de la resta es: {resultado2}")
+
+elif operacion == "division":
+
+
+    numero_5 = float(input("ingresa el primer numero: "))
+    numero_6 = float(input("ingrese el segundo numero: "))
+
+    resultado3 = numero_5 / numero_6
+
+    print(f"el resultado de la division es: {resultado3}")
+
+elif operacion == "multiplicacion":
+
+
+    numero_7 = float(input("ingrese el primer numero: "))
+    numero_8 = float(input("ingrese el segundo numero: "))
+
+    resultado4 = numero_7 * numero_8
+
+    print(f" el resultado de la multiplicacion es: {resultado4}")
 
 
