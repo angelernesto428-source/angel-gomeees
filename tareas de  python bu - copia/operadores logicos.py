@@ -1,3 +1,2 @@
-#OPERADORES LOGICOS
+#OPERADORES LOGIcos
 
-#estoy en eso yava
