@@ -1,0 +1,24 @@
+.tarjeta
+{
+    padding: 200px;
+    padding-top: 200px;
+    ;
+}
+.tarjeta .container-text
+{
+  width: 300px; 
+  border: 1px solid #ccc; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 15px; 
+  margin: 20px; 
+  text-align: center; 
+  font-family: Arial, sans-serif; 
+}
+
+.tarjeta .container-img 
+{
+  width: 100%; 
+  height: auto; 
+  border-radius: 4px; 
+}
